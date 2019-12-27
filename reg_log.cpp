@@ -60,9 +60,9 @@ int sign()
 					}
 				}
 				else{
-					cout<<"\nUsername not found...\nTry  again...Press 0 to exit\n";
+					cout<<"\nUsername not found...\nPress 1 to Try  again...\n";
 					cin>>c;
-					if(c==0)
+					if(c!=1)
 					break;
 
 				}
@@ -147,5 +147,3 @@ void signin()
 
 }
 }
-
-
