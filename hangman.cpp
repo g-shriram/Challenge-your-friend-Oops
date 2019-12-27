@@ -190,7 +190,10 @@ void hangman()
   }
   else
   {
-  	cout<<"\nThe user is not your friend...\nTry again...\n";
+  	cout<<"\nThe user is not your friend...\nPress 1 to Try again...\n";
+    int d;
+    cin>>d;
+    if(d==1)
   	goto l;
   }
 	break;
